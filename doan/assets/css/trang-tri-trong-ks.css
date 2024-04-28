@@ -1,0 +1,375 @@
+.section-deco-indoor-inner {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.section-deco-indoor-inner .section-box:nth-child(2) {
+    padding: 0 50px;
+}
+
+.section-deco-indoor-inner .section-box .section-text-emphasize {
+    text-align: center;
+}
+
+#section-couples-anxiety {
+    background: url("https://tiffany.com.vn/wp-content/uploads/2023/07/338014541_1159938268014348_6325392054773351420_n.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+#section-couples-anxiety::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc7b5bd;
+    z-index: -1;
+}
+
+.section-couples-anxiety-inner {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-couples-anxiety-inner .section-box > h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.section-couples-anxiety-inner .section-box .section-box-card {
+    padding: 12px 26px;
+    background-color: #fff;
+    margin-bottom: 26px;
+    border-radius: 999px;
+    box-shadow: 0 0 2px #b2b2b2;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #6d4040;
+}
+
+#section-choose-address,
+#section-service-deco {
+    background-color: #f5f2ea;
+}
+
+.section-choose-address-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-choose-address-inner img {
+    width: 100%;
+}
+
+.section-choose-address-inner .section-text-des {
+    line-height: 1.5;
+}
+
+.section-list-cate-deco-inner .section-text-emphasize {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.section-list-cate-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.section-list-cate-card {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-bottom-left-radius: 80px;
+    border: 1px solid #dcdcdc;
+    margin-top: 38px;
+    margin-bottom: 14px;
+}
+
+.section-list-cate-card img {
+    width: 100%;
+}
+
+.section-list-cate-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #c59191;
+    font-family: "Montserrat", sans-serif;
+    margin: 16px 0;
+}
+
+.section-list-cate-card ul li {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.section-list-cate-card ul li span {
+    color: #c59191;
+    padding-right: 6px;
+}
+
+.section-service-deco-inner .section-text-emphasize {
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.section-service-box {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.section-service-box-card {
+    padding: 50px;
+    background-color: #fff;
+    border-top-left-radius: 71px;
+    border-bottom-right-radius: 71px;
+    box-shadow: 0 0 2px #bababac2;
+}
+
+.section-service-box-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #c59191;
+    margin-bottom: 46px;
+}
+
+.section-service-box-card .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-service-box-card .section-text-emphasize {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.section-service-box-card .btn-read-more-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-service-box-card .btn-read-more {
+    font-weight: 500;
+    font-size: 17px;
+    color: #b69d9d;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-service-box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-build-and-sort-event-inner {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.section-build-and-sort-event-inner img {
+    width: 100%;
+}
+
+.section-build-and-sort-event-inner .section-text-strong {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.section-build-and-sort-event-inner .section-text-des {
+    color: #2d2d2d;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+#section-contact-with-vd {
+    background: url("https://tiffany.com.vn/wp-content/uploads/2023/07/338014541_1159938268014348_6325392054773351420_n.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+#section-contact-with-vd::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #1d1d2e34;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section-contact-with-vd-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.section-contact-with-vd-inner .section-box:nth-child(1) {
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-contact-with-vd-inner .section-title {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    margin: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+    line-height: 59px;
+}
+
+.section-contact-with-vd-inner .section-title::after {
+    display: none;
+}
+
+.section-contact-with-vd-inner .line {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.section-contact-with-vd-inner .text-description {
+    color: #fff;
+    line-height: 2;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-contact-with-vd-inner .section-box:nth-child(2) {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#register .title-form {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #535353;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#register .title-form::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #947177;
+}
+
+#register input[type="text"] {
+    padding: 14px;
+    outline: none;
+    border: 2px solid #cdccca;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+
+#register .btn-submit {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px;
+    background-color: #a08661;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+
+#register .btn-submit:hover {
+    background-color: #7cc2ff;
+}
+
+.section-infor-vd-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-infor-vd-inner .section-box > img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-infor-vd-inner .section-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.section-infor-vd-inner ul > li {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #535353;
+    margin-bottom: 18px;
+}

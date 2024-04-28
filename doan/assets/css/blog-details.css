@@ -1,0 +1,70 @@
+.hero-banner {
+    background: url("https://theplannersvn.com/wp-content/uploads/2022/06/85184785_511400322852637_2955957416941846528_n.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dedeff01;
+    z-index: 1;
+}
+
+.hero-banner-title {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #f7f6eb;
+    color: #494949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.section-blog-details{
+    margin: 50px 0;
+}
+
+.section-blog-details h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #121212;
+    font-weight: 400;
+}
+
+
+.section-blog-details img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section-blog-details p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+
+.section-blog-details h2{
+    font-size: 26px;
+    margin: 20px 0;
+}
+.tieu-chi{
+    list-style-type: disc;
+    padding-left: 40px;
+}

@@ -1,0 +1,63 @@
+.section-emtion-client-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-emtion-client-silder-wrapper {
+    padding-left: 100px;
+}
+
+.section-emtion-client-card h3 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.section-emtion-client-silder {
+    width: 100%;
+}
+
+.client-reviews {
+    font-size: 18px;
+    font-style: oblique;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #909090;
+    text-align: right;
+}
+
+.client-author-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.client-author-wrapper .client-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #947177;
+    margin-bottom: 6px;
+}
+
+.client-author-wrapper .client-address {
+    width: 100%;
+}
+
+.section-emtion-client-silder .client-box > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    margin-right: 10px;
+}
+
+.section-emtion-client-silder {
+    margin: 50px 0;
+    max-width: 72%;
+}
+
+.section-emtion-client-silder:nth-child(odd) {
+    align-self: flex-end;
+}

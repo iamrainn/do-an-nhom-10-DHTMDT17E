@@ -1,0 +1,275 @@
+.hero-banner {
+    background: url("https://theplannersvn.com/wp-content/uploads/2022/02/Minh-Han-593-scaled-e1606730749110.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dedeff01;
+    z-index: 1;
+}
+
+.hero-banner-title {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #f7f6eb;
+    color: #494949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Playfair Display", sans-serif;
+}
+
+#section-introduce-team,
+#section-posts-about-vd {
+    background-color: #f5f2ea;
+}
+
+.section-introduce-team-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.section-introduce-team-box {
+    width: 100%;
+    padding: 22px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.section-introduce-team-box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.section-introduce-team-box .name {
+    margin: 12px 0 18px;
+    font-family: "Montserrat", sans-serif;
+    font-family: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #494949;
+}
+
+.section-introduce-team-box span {
+    color: #494949;
+    font-weight: 700;
+    padding-right: 6px;
+}
+
+.section-introduce-team-box p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.section-contact-now-inner .section-description {
+    font-size: 28px;
+    font-style: italic;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.section-posts-about-vd-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section-posts-about-vd-card {
+    padding: 28px 20px;
+    border-radius: 16px;
+}
+
+.section-posts-about-vd-card:nth-child(odd) {
+    background-color: #fff;
+}
+
+.section-posts-about-vd-card .image-posts-about-vd img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-posts-about-vd-card .card-title {
+    color: #947177;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.section-posts-about-vd-card .text-description {
+    line-height: 1.4;
+}
+
+#section-contact-with-vd {
+    background: url("https://tiffany.com.vn/wp-content/uploads/2023/07/338014541_1159938268014348_6325392054773351420_n.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+#section-contact-with-vd::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #1d1d2e34;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section-contact-with-vd-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.section-contact-with-vd-inner .section-box:nth-child(1) {
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-contact-with-vd-inner .section-title {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    margin: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+    line-height: 59px;
+}
+
+.section-contact-with-vd-inner .section-title::after {
+    display: none;
+}
+
+.section-contact-with-vd-inner .line {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.section-contact-with-vd-inner .text-description {
+    color: #fff;
+    line-height: 2;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-contact-with-vd-inner .section-box:nth-child(2) {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#register .title-form {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #535353;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#register .title-form::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #947177;
+}
+
+#register input[type="text"] {
+    padding: 14px;
+    outline: none;
+    border: 2px solid #cdccca;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+
+#register .btn-submit {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px;
+    background-color: #a08661;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+
+#register .btn-submit:hover {
+    background-color: #7cc2ff;
+}
+
+.section-infor-vd-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-infor-vd-inner .section-box > img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-infor-vd-inner .section-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.section-infor-vd-inner ul > li {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #535353;
+    margin-bottom: 18px;
+}
